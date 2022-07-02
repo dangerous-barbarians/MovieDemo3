@@ -1,0 +1,11 @@
+(venv) PS G:\Code\MovieDemo3> $env:FLASK_APP = "gotoMovie"    每一次关闭终端启动后
+(venv) PS G:\Code\MovieDemo3> $env:FLASK_ENV = "development"
+(venv) PS G:\Code\MovieDemo3> flask
+
+
+(venv) PS G:\Code\MovieDemo3> flask init-db
+Initialized the database
+(venv) PS G:\Code\MovieDemo3> flask test-db
+
+
+(venv) PS G:\Code\MovieDemo3> flask delete-db
